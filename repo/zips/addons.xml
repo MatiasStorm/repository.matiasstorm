@@ -26,12 +26,12 @@
             <fanart>resources/fanart.jpg</fanart>
         </assets>
     </extension>
-</addon><addon id="repository.matiasstorm" name="MatiasStorm Repository" version="1.0.1" provider-name="MatiasStorm">
+</addon><addon id="repository.matiasstorm" name="MatiasStorm Repository" version="2.2" provider-name="MatiasStorm">
     <extension point="xbmc.addon.repository" name="MatiasStorm Repository">
         <dir>
-            <info compressed="false">https://raw.githubusercontent.com/MatiasStorm/repository.matiasstorm/main/repo/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/MatiasStorm/repository.matiasstorm/main/repo/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/MatiasStorm/repository.matiasstorm/main/repo/zips/</datadir>
+            <info compressed="false">https://raw.githubusercontent.com/matiasstorm/repository.matiasstorm/main/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/matiasstorm/repository.matiasstorm/main/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/matiasstorm/repository.matiasstorm/main/repo/zips/</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
