@@ -1,0 +1,3 @@
+[submodule "repo/plugin.video.tv2play"]
+	path = repo/plugin.video.tv2play
+	url = https://github.com/MatiasStorm/plugin.video.tv2play
