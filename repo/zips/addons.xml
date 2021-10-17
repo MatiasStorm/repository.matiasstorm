@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<addons>
-<addon id="plugin.video.tv2play" name="TV2 Play" version="0.0.3" provider-name="Matias Storm">
+<addons><addon id="plugin.video.tv2play" name="TV2 Play" version="0.0.3" provider-name="Matias Storm">
     <requires>
+        
         <import addon="script.module.inputstreamhelper" version="0.5.2" />
         <import addon="script.module.requests" version="2.9.1" />
         <import addon="script.module.beautifulsoup4" version="4.6.2" /> 
@@ -26,9 +26,7 @@
             <fanart>resources/fanart.jpg</fanart>
         </assets>
     </extension>
-</addon>
-
-<addon id="repository.matiasstorm" name="matiasstorm Repository" version="2.2" provider-name="MatiasStorm">
+</addon><addon id="repository.matiasstorm" name="matiasstorm Repository" version="2.2" provider-name="MatiasStorm">
     <extension point="xbmc.addon.repository" name="matiasstorm repository">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/MatiasStorm/repository.matiasstorm/main/repo/zips/addons.xml</info>
@@ -45,6 +43,4 @@
             <icon>icon.png</icon>
         </assets>
     </extension>
-</addon>
-
-</addons>
+</addon></addons>
