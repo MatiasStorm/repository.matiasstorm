@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root><addon id="plugin.video.tv2play" name="TV2 Play" version="0.0.3" provider-name="Matias Storm">
+    <requires>
+        
+        <import addon="script.module.inputstreamhelper" version="0.5.2" />
+        <import addon="script.module.requests" version="2.9.1" />
+        <import addon="script.module.beautifulsoup4" version="4.6.2" /> 
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="main.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Playes live TV and other programs from TV2 play</summary>
+        <description lang="en_GB" />
+        <language />
+        <platform>all</platform>
+        <reuselanguageinvoker>false</reuselanguageinvoker>
+        <license>MIT</license>
+        <forum />
+        <email />
+        <source>https://github.com/MatiasStorm/plugin.video.tv2play</source>
+        <news />
+        <disclaimer />
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon><addon id="repository.matiasstorm" name="matiasstorm Repository" version="2.2" provider-name="MatiasStorm">
+    <extension point="xbmc.addon.repository" name="matiasstorm repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/MatiasStorm/repository.matiasstorm/main/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/MatiasStorm/repository.matiasstorm/main/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/MatiasStorm/repository.matiasstorm/main/repo/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>matiasstorm Repository</summary>
+        <description>My kodi repository.</description>
+        <disclaimer />
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon></root>
