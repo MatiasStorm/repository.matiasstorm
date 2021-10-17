@@ -26,17 +26,17 @@
             <fanart>resources/fanart.jpg</fanart>
         </assets>
     </extension>
-</addon><addon id="repository.matiasstorm" name="MatiasStorm Repository" version="2.2" provider-name="MatiasStorm">
-    <extension point="xbmc.addon.repository" name="MatiasStorm Repository">
-        <dir>
+</addon><addon id="repository.matiasstorm" name="matiasstorm Repository" version="2.2" provider-name="MatiasStorm">
+    <extension point="xbmc.addon.repository" name="matiasstorm repository">
+        <dir minversion="18.9.0">
             <info compressed="false">https://raw.githubusercontent.com/matiasstorm/repository.matiasstorm/main/repo/zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/matiasstorm/repository.matiasstorm/main/repo/zips/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/matiasstorm/repository.matiasstorm/main/repo/zips/</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary>repository.matiasstorm</summary>
-        <description>A repository for my addons</description>
+        <summary>matiasstorm Repository</summary>
+        <description>My kodi repository.</description>
         <disclaimer />
         <platform>all</platform>
         <assets>
